@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+  }
+
+.dropdown:hover{
+  background-color: rgb(112, 111, 111);
+}
+#nav1{
+  margin-left: 500px;
+}
+#nav2{
+  margin-left: 100px;
+}
+#btn1{
+  border-radius: 17px;
+  margin-left: 15px;
+}
