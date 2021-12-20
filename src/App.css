@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Montserrat&family=Zen+Antique&display=swap');
 .App {
   text-align: center;
 }
@@ -52,4 +54,25 @@
 #btn1{
   border-radius: 17px;
   margin-left: 15px;
+}
+#mainTxt{
+  font-family: 'Montserrat', sans-serif;
+}
+#scndTxt{
+  font-family: 'Damion', cursive;
+  font-size: 2.8rem;
+  margin-top: -11px;
+}
+.btn-link{
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 21px;
+  padding: 0px 25px;
+  color: black;
+  font-weight: bold;
+}
+.btn-link:hover{
+  border-bottom: 3px solid black;
+  color: black;
 }

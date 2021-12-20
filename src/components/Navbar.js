@@ -1,6 +1,8 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Navbar = () => {
+    const [location, setLocation] = useState("Mumbai")
     return (
         <>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -13,14 +15,14 @@ const Navbar = () => {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mumbai
+                        {location}
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="#">Mumbai</a></li>
-                        <li><a className="dropdown-item" href="#">Navi Mumbai</a></li>
-                        <li><a className="dropdown-item" href="#">Chennai</a></li>
-                        <li><a className="dropdown-item" href="#">Hyderabad</a></li>
-                        <li><a className="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a className="dropdown-item" href="#" onClick={()=>{setLocation("Mumbai")}}>Mumbai</a></li>
+                        <li><a className="dropdown-item" href="#" onClick={()=>{setLocation("Navi Mumbai")}}>Navi Mumbai</a></li>
+                        <li><a className="dropdown-item" href="#" onClick={()=>{setLocation("Chennai")}}>Chennai</a></li>
+                        <li><a className="dropdown-item" href="#" onClick={()=>{setLocation("Hyderabad")}}>Hyderabad</a></li>
+                        <li><a className="dropdown-item" href="#" onClick={()=>{setLocation("Kolkata")}}>Kolkata</a></li>
                     </ul>
                     </li>
                 </ul>
