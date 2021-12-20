@@ -76,3 +76,18 @@
   border-bottom: 3px solid black;
   color: black;
 }
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.searchBox{
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 57px;
+  width: 85vh;
+  border-radius: 30px;
+}
+.items{
+  margin-top: 15px;
+  margin-left: 12px ;
+}

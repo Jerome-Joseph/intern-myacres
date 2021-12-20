@@ -17,7 +17,9 @@ const Home = () => {
         <button type="button" className="btn btn-link" onClick={()=>{setMainHead("Find a home away from");setCursiveHead("home")}}>PG</button>
         <button type="button" className="btn btn-link" onClick={()=>{setMainHead("Pick your perfect piece of");setCursiveHead("plot")}}>Plot</button>
         <button type="button" className="btn btn-link" onClick={()=>{setMainHead("Find your perfect");setCursiveHead("workspace")}}>Commercial</button>
-        <button type="button" className="btn btn-link" onClick={()=>{setMainHead("Post your Property Ad for");setCursiveHead("free")}}>Post Free Ad</button>
+        <button type="button" className="btn btn-link" onClick={()=>{setMainHead("Post your Property Ad for");setCursiveHead("free")}}>Post Free Ad
+        
+        </button>
         </div>
         </>
     )
